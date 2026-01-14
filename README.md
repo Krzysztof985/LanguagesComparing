@@ -38,8 +38,13 @@ A Python-based tool designed to analyze linguistic similarities between differen
 
 📋 UsagePrepare a source file: Create a .txt file containing one word per line (e.g., animals.txt).Run the script:Bashpython main.py
 Step 1: Select Languages: Choose between 2 and 4 languages to compare (e.g., "English, Spanish, Italian").
+
 Step 2: Analyze:Choose Option 1 to process a single file by providing its path.Choose Option 2 to process all .txt files within a specific directory.
+
 Review Results: Results are automatically saved in the results/ directory:results/translations/: Translated word lists.results/similarities/: Word-by-word similarity CSVs.results/[topic]_similarity_graph.png: The visual graph showing percentage similarities.
+
 🧮 Calculation Methodology
+
 Word Similarity: The similarity between two words is calculated as a normalized Levenshtein distance, where 1.0 is a perfect match and 0.0 is entirely different.
+
 Overall Language Similarity: The overall similarity between two languages is determined by the diagonal average of the similarity matrix. This approach specifically compares the similarity of the i-th word in Language A with the i-th translated word in Language B.
