@@ -42,7 +42,7 @@ Run the script: Bash python main.py
 
 Step 1: Select Languages: Choose between 2 and 4 languages to compare (e.g., "English, Spanish, Italian").
 
-Step 2: Analyze:Choose Option 1 to process a single file by providing its path.Choose Option 2 to process all .txt files within a specific directory.
+Step 2: Analyze: Choose Option 1 to process a single file by providing its path. Choose Option 2 to process all .txt files within a specific directory.
 
 Review Results: Results are automatically saved in the results/ directory:results/translations/: Translated word lists.results/similarities/: Word-by-word similarity CSVs.results/[topic]_similarity_graph.png: The visual graph showing percentage similarities.
 
