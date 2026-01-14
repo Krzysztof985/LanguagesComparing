@@ -36,7 +36,8 @@ A Python-based tool designed to analyze linguistic similarities between differen
    ```bash
    pip install textdistance deep-translator networkx matplotlib
 
-📋 UsagePrepare a source file: Create a .txt file containing one word per line (e.g., animals.txt).Run the script:Bashpython main.py
+📋 UsagePrepare a source file: Create a .txt file containing one word per line (e.g., animals.txt).
+Run the script:Bashpython main.py
 Step 1: Select Languages: Choose between 2 and 4 languages to compare (e.g., "English, Spanish, Italian").
 
 Step 2: Analyze:Choose Option 1 to process a single file by providing its path.Choose Option 2 to process all .txt files within a specific directory.
