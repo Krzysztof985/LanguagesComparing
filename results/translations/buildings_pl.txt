@@ -1,0 +1,68 @@
+szkoła
+uniwersytet
+biblioteka
+księgarnia
+szpital
+klinika
+apteka
+posterunek policji
+straż pożarna
+ratusz
+gmach sądu
+poczta
+bank
+centrum handlowe
+supermarket
+sklep spożywczy
+piekarnia
+restauracja
+kawiarnia
+hotel
+schronisko
+budynek mieszkalny
+budynek biurowy
+fabryka
+magazyn
+muzeum
+galeria sztuki
+teatr
+kino
+sala koncertowa
+stadion
+centrum sportu
+sala gimnastyczna
+basen
+park
+zoo
+akwarium
+ogród botaniczny
+kościół
+katedra
+meczet
+synagoga
+świątynia
+centrum społeczności
+centrum kultury
+centrum kongresowe
+stacja kolejowa
+dworzec autobusowy
+stacja metra
+lotnisko
+garaż parkingowy
+stacja benzynowa
+myjnia samochodowa
+warsztat samochodowy
+pranie
+pralnia chemiczna
+salon fryzjerski
+fryzjer
+salon piękności
+spa
+centrum opieki dziennej
+przedszkole
+plac gier i zabaw
+centrum młodzieży
+dom opieki dla osób starszych
+schronienie
+hotel
+centrum informacji turystycznej

@@ -1,0 +1,36 @@
+pomme
+poire
+banane
+orange
+citron
+citron vert
+raisin
+cerise
+fraise
+framboise
+myrtille
+mûre
+pastèque
+melon
+pêche
+prune
+abricot
+ananas
+mangue
+kiwi
+papaye
+grenade
+pamplemousse
+figue
+date
+noix de coco
+avocat
+tangerine
+canneberge
+fruit de la passion
+goyave
+litchi
+kaki
+nectarine
+groseille
+olive

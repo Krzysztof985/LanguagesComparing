@@ -1,0 +1,68 @@
+school
+university
+library
+bookstore
+hospital
+clinic
+pharmacy
+police station
+fire station
+city hall
+courthouse
+post office
+bank
+shopping mall
+supermarket
+grocery store
+bakery
+restaurant
+café
+hotel
+hostel
+apartment building
+office building
+factory
+warehouse
+museum
+art gallery
+theater
+cinema
+concert hall
+stadium
+sports center
+gym
+swimming pool
+park
+zoo
+aquarium
+botanical garden
+church
+cathedral
+mosque
+synagogue
+temple
+community center
+cultural center
+convention center
+train station
+bus station
+subway station
+airport
+parking garage
+gas station
+car wash
+auto repair shop
+laundry
+dry cleaner
+hair salon
+barber shop
+beauty salon
+spa
+daycare center
+kindergarten
+playground
+youth center
+elderly care home
+shelter
+hotel
+tourist information center
