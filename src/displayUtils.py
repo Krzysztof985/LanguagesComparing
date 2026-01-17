@@ -1,12 +1,23 @@
 #Functions were created with AI's help
 import os
+import sys
 import networkx as nx
 import matplotlib.pyplot as plt
 
-from utils.fileUtils import get_words_from_file, save_words_to_file, save_similarity_matrix
-from utils.translate import translate_words
-from utils.similarity import compute_similarity
-from utils.overall_similarity import diagonal_average, add_connection
+# Handle both running as script and as PyInstaller executable
+if getattr(sys, 'frozen', False):
+    # Running as compiled executable
+    from utils.fileUtils import get_words_from_file, save_words_to_file, save_similarity_matrix
+    from utils.translate import translate_words
+    from utils.similarity import compute_similarity
+    from utils.overall_similarity import diagonal_average, add_connection
+else:
+    # Running as script
+    from src.utils.fileUtils import get_words_from_file, save_words_to_file, save_similarity_matrix
+    from src.utils.translate import translate_words
+    from src.utils.similarity import compute_similarity
+    from src.utils.overall_similarity import diagonal_average, add_connection
+
 
 # Language mapping - full names to language codes
 LANGUAGE_MAP = {

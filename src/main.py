@@ -1,15 +1,32 @@
 import os
-from src.displayUtils import (
-    select_languages,
-    process_word_file,
-    display_menu,
-    get_file_path,
-    get_directory_path,
-    process_directory
-)
+import sys
 
-# Get the project root directory (parent of src)
-project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Handle both running as script and as PyInstaller executable
+if getattr(sys, 'frozen', False):
+    # Running as compiled executable
+    import displayUtils
+    from displayUtils import (
+        select_languages,
+        process_word_file,
+        display_menu,
+        get_file_path,
+        get_directory_path,
+        process_directory
+    )
+    # Use the directory where the .exe is located
+    project_root = os.path.dirname(sys.executable)
+else:
+    # Running as script
+    from src.displayUtils import (
+        select_languages,
+        process_word_file,
+        display_menu,
+        get_file_path,
+        get_directory_path,
+        process_directory
+    )
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 results_dir = os.path.join(project_root, "results")
 
 # Create necessary directories
